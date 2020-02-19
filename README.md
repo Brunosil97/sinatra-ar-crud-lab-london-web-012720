@@ -20,7 +20,7 @@ your `/articles/new` route _before_ your `/articles/:id` route.
 
 ### Database
 
-First, you'll need to create the `articles` table. An article should have a title
+<!-- First, you'll need to create the `articles` table. An article should have a title
 and content.
 
 Next, set up the corresponding `Article` model. Make sure the class inherits from `ActiveRecord::Base`.
@@ -34,7 +34,7 @@ First, create a route in your controller, `get '/articles/new'`, that renders th
 `new.erb` view.
 
 We need to create an ERB file in the views directory, `new.erb`, with a form
-that `POST`s to a controller action, `/articles`. The controller action should use
+that `POST`s to a controller action, `/articles`. The controller action should use -->
 the Create CRUD action to create the article and save it to the database.
 When the form on `new.erb` is submitted, the action, pointing to `/articles`,
 will redirect to another action which will trigger a render of a `show.erb` file
